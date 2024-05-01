@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC2C800CCE03AAC76508A67D /* Pods_OneLastChanceVendor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 517B529D5AEAFD8FA174B3AA /* Pods_OneLastChanceVendor.framework */; };
 		F9F48A2C2BE26489003A16E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F48A2B2BE26489003A16E1 /* AppDelegate.swift */; };
 		F9F48A2E2BE26489003A16E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F48A2D2BE26489003A16E1 /* SceneDelegate.swift */; };
 		F9F48A302BE26489003A16E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F48A2F2BE26489003A16E1 /* ViewController.swift */; };
@@ -16,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		22136935D99F7E17DBC861ED /* Pods-OneLastChanceVendor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneLastChanceVendor.release.xcconfig"; path = "Target Support Files/Pods-OneLastChanceVendor/Pods-OneLastChanceVendor.release.xcconfig"; sourceTree = "<group>"; };
+		517B529D5AEAFD8FA174B3AA /* Pods_OneLastChanceVendor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneLastChanceVendor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E03B89D8072C47C7A0B5BC1 /* Pods-OneLastChanceVendor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneLastChanceVendor.debug.xcconfig"; path = "Target Support Files/Pods-OneLastChanceVendor/Pods-OneLastChanceVendor.debug.xcconfig"; sourceTree = "<group>"; };
 		F9F48A282BE26489003A16E1 /* OneLastChanceVendor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneLastChanceVendor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9F48A2B2BE26489003A16E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9F48A2D2BE26489003A16E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC2C800CCE03AAC76508A67D /* Pods_OneLastChanceVendor.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29BA18750E25D7BFDF835838 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				517B529D5AEAFD8FA174B3AA /* Pods_OneLastChanceVendor.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2BBCFA89732A1AED5E5B1285 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E03B89D8072C47C7A0B5BC1 /* Pods-OneLastChanceVendor.debug.xcconfig */,
+				22136935D99F7E17DBC861ED /* Pods-OneLastChanceVendor.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F9F48A1F2BE26489003A16E1 = {
 			isa = PBXGroup;
 			children = (
 				F9F48A2A2BE26489003A16E1 /* OneLastChanceVendor */,
 				F9F48A292BE26489003A16E1 /* Products */,
+				2BBCFA89732A1AED5E5B1285 /* Pods */,
+				29BA18750E25D7BFDF835838 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F9F48A3C2BE2648B003A16E1 /* Build configuration list for PBXNativeTarget "OneLastChanceVendor" */;
 			buildPhases = (
+				244E94E62FEE99960A71B8E5 /* [CP] Check Pods Manifest.lock */,
 				F9F48A242BE26489003A16E1 /* Sources */,
 				F9F48A252BE26489003A16E1 /* Frameworks */,
 				F9F48A262BE26489003A16E1 /* Resources */,
+				93AE3DC7D2E84C2F303E067E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +158,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		244E94E62FEE99960A71B8E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OneLastChanceVendor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93AE3DC7D2E84C2F303E067E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OneLastChanceVendor/Pods-OneLastChanceVendor-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OneLastChanceVendor/Pods-OneLastChanceVendor-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OneLastChanceVendor/Pods-OneLastChanceVendor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F9F48A242BE26489003A16E1 /* Sources */ = {
@@ -287,11 +355,13 @@
 		};
 		F9F48A3D2BE2648B003A16E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E03B89D8072C47C7A0B5BC1 /* Pods-OneLastChanceVendor.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = OneLastChanceVendor/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -317,11 +387,13 @@
 		};
 		F9F48A3E2BE2648B003A16E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22136935D99F7E17DBC861ED /* Pods-OneLastChanceVendor.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = OneLastChanceVendor/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
