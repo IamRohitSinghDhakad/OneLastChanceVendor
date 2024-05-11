@@ -45,7 +45,7 @@ extension HomeViewController : UITableViewDelegate, UITableViewDataSource{
     
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        pushVc(viewConterlerId: "DetailViewController")
+        pushVc(viewConterlerId: "CreateSecretBoxViewController")
     }
 }
 

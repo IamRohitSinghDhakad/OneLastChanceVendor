@@ -99,6 +99,11 @@ extension HistoryViewController : UITableViewDataSource, UITableViewDelegate{
     }
     
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        pushVc(viewConterlerId: "DetailViewController")
+    }
+    
+    
     
     
     

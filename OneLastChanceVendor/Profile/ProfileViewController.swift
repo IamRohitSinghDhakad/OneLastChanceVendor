@@ -46,6 +46,15 @@ class ProfileViewController: UIViewController {
         
     }
     
+    @IBAction func btnOnfinance(_ sender: Any) {
+        pushVc(viewConterlerId: "FinanceViewController")
+    }
+    
+    @IBAction func btnOnMyReview(_ sender: Any) {
+        pushVc(viewConterlerId: "MyReviewViewController")
+        
+    }
+    
     @IBAction func btnOnShareMyCode(_ sender: Any) {
         let textToShare = "asd%^4ds" // Replace this with your string content
         
@@ -54,6 +63,5 @@ class ProfileViewController: UIViewController {
         
         // Present the view controller
         self.present(activityViewController, animated: true, completion: nil)
-        
     }
 }

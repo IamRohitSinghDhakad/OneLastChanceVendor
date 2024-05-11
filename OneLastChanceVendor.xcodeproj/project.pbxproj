@@ -60,6 +60,12 @@
 		0A5E0F782BECDEB300F03981 /* TimePickerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5E0F572BECDEB300F03981 /* TimePickerManager.swift */; };
 		0A5E0F7A2BECE5D700F03981 /* CreateSecretBoxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5E0F792BECE5D700F03981 /* CreateSecretBoxViewController.swift */; };
 		DC2C800CCE03AAC76508A67D /* Pods_OneLastChanceVendor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 517B529D5AEAFD8FA174B3AA /* Pods_OneLastChanceVendor.framework */; };
+		F98DB1332BED03BA009808A4 /* FinanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98DB1322BED03BA009808A4 /* FinanceViewController.swift */; };
+		F98DB1362BED03D1009808A4 /* FinanceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98DB1342BED03D1009808A4 /* FinanceTableViewCell.swift */; };
+		F98DB1372BED03D1009808A4 /* FinanceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F98DB1352BED03D1009808A4 /* FinanceTableViewCell.xib */; };
+		F98DB13A2BED06CD009808A4 /* MyReviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98DB1382BED06CD009808A4 /* MyReviewTableViewCell.swift */; };
+		F98DB13B2BED06CD009808A4 /* MyReviewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F98DB1392BED06CD009808A4 /* MyReviewTableViewCell.xib */; };
+		F98DB13D2BED06DB009808A4 /* MyReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98DB13C2BED06DB009808A4 /* MyReviewViewController.swift */; };
 		F9F48A2C2BE26489003A16E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F48A2B2BE26489003A16E1 /* AppDelegate.swift */; };
 		F9F48A302BE26489003A16E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F48A2F2BE26489003A16E1 /* ViewController.swift */; };
 		F9F48A332BE26489003A16E1 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F9F48A322BE26489003A16E1 /* Base */; };
@@ -123,6 +129,12 @@
 		22136935D99F7E17DBC861ED /* Pods-OneLastChanceVendor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneLastChanceVendor.release.xcconfig"; path = "Target Support Files/Pods-OneLastChanceVendor/Pods-OneLastChanceVendor.release.xcconfig"; sourceTree = "<group>"; };
 		517B529D5AEAFD8FA174B3AA /* Pods_OneLastChanceVendor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneLastChanceVendor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E03B89D8072C47C7A0B5BC1 /* Pods-OneLastChanceVendor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneLastChanceVendor.debug.xcconfig"; path = "Target Support Files/Pods-OneLastChanceVendor/Pods-OneLastChanceVendor.debug.xcconfig"; sourceTree = "<group>"; };
+		F98DB1322BED03BA009808A4 /* FinanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceViewController.swift; sourceTree = "<group>"; };
+		F98DB1342BED03D1009808A4 /* FinanceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceTableViewCell.swift; sourceTree = "<group>"; };
+		F98DB1352BED03D1009808A4 /* FinanceTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FinanceTableViewCell.xib; sourceTree = "<group>"; };
+		F98DB1382BED06CD009808A4 /* MyReviewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyReviewTableViewCell.swift; sourceTree = "<group>"; };
+		F98DB1392BED06CD009808A4 /* MyReviewTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyReviewTableViewCell.xib; sourceTree = "<group>"; };
+		F98DB13C2BED06DB009808A4 /* MyReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyReviewViewController.swift; sourceTree = "<group>"; };
 		F9F48A282BE26489003A16E1 /* OneLastChanceVendor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneLastChanceVendor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9F48A2B2BE26489003A16E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9F48A2F2BE26489003A16E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -195,6 +207,12 @@
 				0A5E0F132BECDE4B00F03981 /* PrivacyPolicyViewController.swift */,
 				0A5E0F142BECDE4B00F03981 /* ProfileViewController.swift */,
 				0A5E0F152BECDE4B00F03981 /* ResetPasswordViewController.swift */,
+				F98DB1322BED03BA009808A4 /* FinanceViewController.swift */,
+				F98DB1342BED03D1009808A4 /* FinanceTableViewCell.swift */,
+				F98DB1352BED03D1009808A4 /* FinanceTableViewCell.xib */,
+				F98DB1382BED06CD009808A4 /* MyReviewTableViewCell.swift */,
+				F98DB1392BED06CD009808A4 /* MyReviewTableViewCell.xib */,
+				F98DB13C2BED06DB009808A4 /* MyReviewViewController.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -402,10 +420,12 @@
 			files = (
 				F9F48A352BE2648B003A16E1 /* Assets.xcassets in Resources */,
 				0A5E0F2A2BECDE4B00F03981 /* ChatTableViewCell.xib in Resources */,
+				F98DB13B2BED06CD009808A4 /* MyReviewTableViewCell.xib in Resources */,
 				F9F48A382BE2648B003A16E1 /* Base in Resources */,
 				0A5E0F1A2BECDE4B00F03981 /* DetailTableViewCell.xib in Resources */,
 				0A5E0F6F2BECDEB300F03981 /* century.ttf in Resources */,
 				0A5E0F202BECDE4B00F03981 /* HomeTableViewCell.xib in Resources */,
+				F98DB1372BED03D1009808A4 /* FinanceTableViewCell.xib in Resources */,
 				F9F48A332BE26489003A16E1 /* Base in Resources */,
 				0A5E0F5A2BECDEB300F03981 /* LocationPicker.storyboard in Resources */,
 				0A5E0F272BECDE4B00F03981 /* HistoryTableViewCell.xib in Resources */,
@@ -487,6 +507,7 @@
 				0A5E0F662BECDEB300F03981 /* NotificationModel.swift in Sources */,
 				0A5E0F282BECDE4B00F03981 /* HistoryViewController.swift in Sources */,
 				0A5E0F712BECDEB300F03981 /* CustomUITextField.swift in Sources */,
+				F98DB1362BED03D1009808A4 /* FinanceTableViewCell.swift in Sources */,
 				0A5E0F722BECDEB300F03981 /* CustomUIView.swift in Sources */,
 				F9F48A302BE26489003A16E1 /* ViewController.swift in Sources */,
 				0A5E0F782BECDEB300F03981 /* TimePickerManager.swift in Sources */,
@@ -498,6 +519,7 @@
 				0A5E0F212BECDE4B00F03981 /* HomeViewController.swift in Sources */,
 				0A5E0F292BECDE4B00F03981 /* ChatTableViewCell.swift in Sources */,
 				0A5E0F612BECDEB300F03981 /* ChatDetailModel.swift in Sources */,
+				F98DB13A2BED06CD009808A4 /* MyReviewTableViewCell.swift in Sources */,
 				0A5E0F2E2BECDE4B00F03981 /* PrivacyPolicyViewController.swift in Sources */,
 				0A5E0F642BECDEB300F03981 /* HomeModel.swift in Sources */,
 				0A5E0F692BECDEB300F03981 /* UserModel.swift in Sources */,
@@ -508,6 +530,8 @@
 				0A5E0F622BECDEB300F03981 /* GamePlayersModel.swift in Sources */,
 				0A5E0F2B2BECDE4B00F03981 /* ChatViewController.swift in Sources */,
 				0A5E0F1B2BECDE4B00F03981 /* DetailViewController.swift in Sources */,
+				F98DB1332BED03BA009808A4 /* FinanceViewController.swift in Sources */,
+				F98DB13D2BED06DB009808A4 /* MyReviewViewController.swift in Sources */,
 				0A5E0F772BECDEB300F03981 /* TableViewExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
